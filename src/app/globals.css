@@ -8,8 +8,7 @@
     --primary-background: 245 18% 12%;
     --secondary-background: 240 25% 21%;
 
-    --primary-foreground: 240 9% 89%;
-    --secondary-foreground: 0 0% 100%;
+    --primary-text: 240 9% 89%;
 
     --message-recipient: 259 52% 48%;
     --message-sender: 177 90% 27%;
@@ -19,22 +18,22 @@
     /* --- shadcn/ui --- */
 
     --background: var(--primary-background);
-    --foreground: var(--primary-foreground);
+    --foreground: var(--primary-text);
 
     --card: var(--primary-background);
-    --card-foreground: var(--primary-foreground);
+    --card-foreground: var(--primary-text);
 
     --popover: var(--primary-background);
-    --popover-foreground: var(--primary-foreground);
+    --popover-foreground: var(--primary-text);
 
     --primary: var(--message-sender);
-    --primary-foreground: var(--primary-foreground);
+    --primary-foreground: var(--primary-text);
 
     --secondary: var(--message-recipient);
-    --secondary-foreground: var(--primary-foreground);
+    --secondary-foreground: var(--primary-text);
 
     --muted: var(--secondary-background);
-    --muted-foreground: var(--primary-foreground);
+    --muted-foreground: var(--primary-text);
 
     --accent: var(--primary-background)
     --accent-foreground: var(--highlight);
