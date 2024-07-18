@@ -32,7 +32,9 @@ export const Message: React.FC<MessageProps> = ({
       <span>
         {sender} - {time}
       </span>
-      <p className="p-3 rounded-lg">{text}</p>
+      <p className="p-3 rounded-lg break-normal max-w-full break-words hyphens-auto">
+        {text}
+      </p>
     </li>
   )
 }
